@@ -1,0 +1,158 @@
+body { 
+    overflow-x: hidden; 
+}
+
+header {
+    background-color: rgb(34, 33, 33);
+}
+
+.textcolor{
+    color: orange
+} 
+
+.nav .nav-link.active{
+    color: #fff;
+    background-color: rgba(186, 125, 12, 0.742);
+}
+
+.nav .nav-link{
+    color: rgba(186, 125, 12, 0.742);
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: none;
+}
+
+#planos {
+    background-color:   rgba(0, 0, 0, 0.813)
+}
+
+#planos h1 {
+    font-size: 40px;
+}
+
+.tab-pane div img {
+    width: 300px;
+}
+
+.tab-pane div {
+    display: inline-block;
+    position: relative;
+}
+
+.tab-pane div figcaption {
+    position: absolute;
+    top: 305px;
+    left: 50px;
+}
+
+.tab-pane div figcaption button {
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+#assinatura input::placeholder {
+    color: rgba(0, 0, 0, 0.288);
+}
+
+#assinatura button {
+    color: rgba(186, 125, 12, 0.742);
+    background-color: rgba(0, 0, 0, 0.813)
+}
+
+#assinatura button:hover {
+    color: white;
+    background-color:rgba(186, 125, 12, 0.742);
+}
+
+fieldset div input {
+    cursor:pointer;
+    max-width: 15px;
+}
+
+fieldset div label {
+    cursor:pointer;
+}
+
+#contato {
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.813)
+}
+
+#contato textarea {
+    resize: none;
+    max-height: 100px;
+}
+
+#contato button {
+    color:#fff;
+    background-color: rgba(186, 125, 12, 0.742)
+}
+
+#redesocial {
+    border-bottom: 1px solid  rgba(186, 125, 12, 0.742);
+}
+
+.list-inline-item i {
+    color: #fff;
+}
+
+#btn-assinatura{
+        font-size: 20px;
+    }
+
+.navbar-toggler {
+    background-color:  rgba(186, 125, 12, 0.742);
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    body { 
+        overflow-x: hidden; 
+    }
+
+    .tab-pane div figcaption button {
+        padding: 5px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .tab-pane div figcaption {
+        position: absolute;
+        top: 230px;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .tab-pane div figcaption {
+        position: absolute;
+        top: 290px;
+        left: 60px;
+    }
+
+    #cont-redesocial {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .tab-content {
+        text-align: center;
+    }
+
+    .tab-pane div figcaption {
+        position: absolute;
+        top: 290px;
+        left: 0px;
+    }
+}
